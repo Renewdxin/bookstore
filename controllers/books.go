@@ -17,6 +17,7 @@ func FindBooks(c *gin.Context) {
 
 func CreateBook(c *gin.Context) {
 	var input models.CreateBookInput
+	//Validate input
 	if err := c.ShouldBindJSON(&input); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{
 			"error": err.Error(),
