@@ -2,6 +2,12 @@ github.com/Renewdxin/bookstore/models v0.0.0-20231122080949-9e8b1df53477 h1:RK0o
 github.com/Renewdxin/bookstore/models v0.0.0-20231122080949-9e8b1df53477/go.mod h1:dNjofeXBZcvMXEUmuvIBMJbNDJLUhErG3wq5r2W7nQs=
 github.com/Renewdxin/bookstore/models v0.0.0-20231122084302-df4e590388a8 h1:hGGm2W4FuwOM1E278ndNA6Eafmh3Skk/iBv1M5u59NI=
 github.com/Renewdxin/bookstore/models v0.0.0-20231122084302-df4e590388a8/go.mod h1:qcIjAfQZaYCsCO02LLPxpdOZ+Sv2OMaGk3O3baPoozc=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122084805-566349b7256e h1:h0+4ROZcTVErvsnZESmJo4xBzIRuD4FnXqkMFrRslZw=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122084805-566349b7256e/go.mod h1:qcIjAfQZaYCsCO02LLPxpdOZ+Sv2OMaGk3O3baPoozc=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122085921-baa41994408d h1:fMOXiKEEnqMEBrDVSaW+NW54nrSJHDa0GTM7k+MSkq8=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122085921-baa41994408d/go.mod h1:R0WUNw/OyptUASQNZ5IkPCLVPzHOHeAOHG/Vr9uE63U=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122091002-e08915557ce4 h1:uvc8OP7eNrSqvV8J1weQ+V427MP2VYiiS1Iw6NV42wI=
+github.com/Renewdxin/bookstore/models v0.0.0-20231122091002-e08915557ce4/go.mod h1:R0WUNw/OyptUASQNZ5IkPCLVPzHOHeAOHG/Vr9uE63U=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=
 github.com/bytedance/sonic v1.9.1 h1:6iJ6NqdoxCDr6mbY8h18oSO+cShGSMRGCEo7F2h0x8s=
 github.com/bytedance/sonic v1.9.1/go.mod h1:i736AoUSYt75HyZLoJW9ERYxcy6eaN6h4BZXU064P/U=

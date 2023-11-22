@@ -3,7 +3,7 @@ module github.com/Renewdxin/bookstore/controllers
 go 1.21
 
 require (
-	github.com/Renewdxin/bookstore/models v0.0.0-20231122084805-566349b7256e
+	github.com/Renewdxin/bookstore/models v0.0.0-20231122091002-e08915557ce4
 	github.com/gin-gonic/gin v1.9.1
 )
 
