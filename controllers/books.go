@@ -14,3 +14,20 @@ func FindBooks(c *gin.Context) {
 		"data": books,
 	})
 }
+
+func CreateBook(c *gin.Context) {
+	var input models.CreateBookInput
+	if err := c.ShouldBindJSON(&input); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error": err.Error(),
+		})
+		return
+	}
+
+	//Create the book
+	book := models.Book{Title: input.Title, Author: input.Author}
+	models.DB.Create(&book)
+	c.JSON(http.StatusOK, gin.H{
+		"data": book,
+	})
+}
