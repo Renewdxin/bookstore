@@ -35,7 +35,7 @@ func CreateBook(c *gin.Context) {
 func FindBook(c *gin.Context) {
 	var book models.Book
 
-	if err := models.DB.Where("id = ?", c.Param("id")).First(&book).Error; err != nil {
+	if err := models.DB.Where("isbn = ?", c.Param("isbn")).First(&book).Error; err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"data": "Record not found!"})
 		return
 	}
@@ -47,7 +47,7 @@ func UpdateBook(c *gin.Context) {
 
 	//Validate input
 	var input models.UpdateBookInput
-	if err := models.DB.Where("id = ?", c.Param("id")).First(&book).Error; err != nil {
+	if err := models.DB.Where("isbn = ?", c.Param("isbn")).First(&book).Error; err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
@@ -58,7 +58,7 @@ func UpdateBook(c *gin.Context) {
 
 func DeleteBook(c *gin.Context) {
 	var book models.Book
-	if err := models.DB.Where("id = ?", c.Param("id")).First(&book).Error; err != nil {
+	if err := models.DB.Where("isbn = ?", c.Param("isbn")).First(&book).Error; err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Record not Found!"})
 		return
 	}
