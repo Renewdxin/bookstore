@@ -13,7 +13,7 @@ func main() {
 	// func(context *gin.Context){}: determines how we provide the data to the client
 	r.GET("/books", controllers.FindBooks)
 	r.GET("/books/:id", controllers.FindBook)
-	r.POST("/books", controllers.Createbook)
+	r.POST("/books", controllers.CreateBook)
 	r.PATCH("/book/:id", controllers.UpdateBook)
 	r.DELETE("/books/:id", controllers.DeleteBook)
 	err := r.Run(":9090")
