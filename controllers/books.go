@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"bookstore/models"
+	"github.com/Renewdxin/bookstore/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
